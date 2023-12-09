@@ -60,6 +60,14 @@
   background-size: cover;
 }
 
+.video {
+  background: url("Assets/Video.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 26px;
+}
+
 /****** GRADIENTS ******/
 .grad {
   background: linear-gradient(270deg, #bb1bff 23.04%, #09f 100%);
