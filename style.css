@@ -60,6 +60,13 @@
   background-size: cover;
 }
 
+.sec_2 {
+  background: url("Assets/Section2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .video {
   background: url("Assets/Video.png");
   background-position: center;
@@ -77,6 +84,13 @@
   background: linear-gradient(270deg, #ffaa9d 17.6%, #ffc698 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.grad-3 {
+  background: linear-gradient(270deg, #0cf 17.6%, #b300ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 92px;
 }
 
 .bang {
