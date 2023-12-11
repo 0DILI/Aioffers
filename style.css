@@ -74,6 +74,13 @@
   background-size: cover;
 }
 
+.sec_4 {
+  background: url("Assets/AO-JV-bg-Sec-04.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .video {
   background: url("Assets/Video.png");
   background-position: center;
