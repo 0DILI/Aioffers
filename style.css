@@ -81,6 +81,13 @@
   background-size: cover;
 }
 
+.sec_5 {
+  background: url("Assets/Section5.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .video {
   background: url("Assets/Video.png");
   background-position: center;
@@ -105,6 +112,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 92px;
+}
+
+.grad-4 {
+  background: linear-gradient(270deg, #0cf 17.6%, #b300ff 100%);
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 92px; */
 }
 
 .bang {
