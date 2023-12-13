@@ -12,9 +12,11 @@
 
 :root {
   --border-radius-medium: 14px;
-  --font-size-26: 26px;
+  --font-size-32: 24px;
   --font-size-70: 70px;
   --font-size-83: 83px;
+  --font-size-50: 40px;
+  --font-size-69: 55px;
   --off-white: #d2d7e4;
 }
 
@@ -33,6 +35,18 @@
 
 .fontSize83px {
   font-size: var(--font-size-83);
+}
+
+.fontSize69px {
+  font-size: var(--font-size-69);
+}
+
+.fontSize50px {
+  font-size: var(--font-size-50);
+}
+
+.fontSize32px {
+  font-size: var(--font-size-32);
 }
 
 .offwhite {
@@ -88,6 +102,13 @@
   background-size: cover;
 }
 
+.sec_6 {
+  background: url("Assets/AO-JV-bg-Sec-06.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .video {
   background: url("Assets/Video.png");
   background-position: center;
@@ -116,9 +137,6 @@
 
 .grad-4 {
   background: linear-gradient(270deg, #0cf 17.6%, #b300ff 100%);
-  /* -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  line-height: 92px; */
 }
 
 .bang {
