@@ -19,6 +19,7 @@
   --font-size-83: 83px;
   --font-size-42: 32px;
   --font-size-50: 40px;
+  --font-size-52: 42px;
   --font-size-55: 45px;
   --font-size-69: 55px;
   --font-size-71: 60px;
@@ -52,6 +53,10 @@
 
 .fontSize50px {
   font-size: var(--font-size-50);
+}
+
+.fontSize52px {
+  font-size: var(--font-size-52);
 }
 
 .fontSize55px {
@@ -199,6 +204,39 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 92px;
+}
+
+.grad-7 {
+  background: linear-gradient(246deg, #b464d8 -0.02%, #ec609e 99.98%);
+}
+
+.grad-7_text {
+  background: linear-gradient(246deg, #b464d8 -0.02%, #ec609e 99.98%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.grad-8 {
+  background: linear-gradient(62deg, #a442ff 0.03%, #3fbbfe 100.03%);
+}
+
+.grad-8_text {
+  background: linear-gradient(62deg, #a442ff 0.03%, #3fbbfe 100.03%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.grad-9 {
+  background: linear-gradient(246deg, #b288ff -0.02%, #6b15d1 99.98%);
+}
+
+.grad-9_text {
+  background: linear-gradient(246deg, #b288ff -0.02%, #6b15d1 99.98%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .bang {
