@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -12,11 +13,15 @@
 
 :root {
   --border-radius-medium: 14px;
+  --font-size-26: 26px;
   --font-size-32: 24px;
   --font-size-70: 70px;
   --font-size-83: 83px;
+  --font-size-42: 32px;
   --font-size-50: 40px;
+  --font-size-55: 45px;
   --font-size-69: 55px;
+  --font-size-71: 60px;
   --off-white: #d2d7e4;
 }
 
@@ -41,12 +46,24 @@
   font-size: var(--font-size-69);
 }
 
+.fontSize42px {
+  font-size: var(--font-size-42);
+}
+
 .fontSize50px {
   font-size: var(--font-size-50);
 }
 
+.fontSize55px {
+  font-size: var(--font-size-55);
+}
+
 .fontSize32px {
   font-size: var(--font-size-32);
+}
+
+.fontSize71px {
+  font-size: var(--font-size-71);
 }
 
 .offwhite {
@@ -109,8 +126,37 @@
   background-size: cover;
 }
 
+.sec_7 {
+  background: url("Assets/AO-JV-bg-Sec-07.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec_8 {
+  background: url("Assets/AO-JV-bg-Sec-09.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec_10 {
+  background: url("Assets/AO-JV-bg-Sec-08.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .video {
   background: url("Assets/Video.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 26px;
+}
+
+.circle {
+  background: url("Assets/circle.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -137,6 +183,22 @@
 
 .grad-4 {
   background: linear-gradient(270deg, #0cf 17.6%, #b300ff 100%);
+}
+
+.grad-5 {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 153, 255, 0.07) 0%,
+    rgba(255, 150, 26, 0.07) 100%
+  );
+}
+
+.grad-6 {
+  background: linear-gradient(180deg, #66ffe5 27.3%, #8093ff 142.41%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 92px;
 }
 
 .bang {
