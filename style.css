@@ -15,6 +15,7 @@
   --border-radius-medium: 14px;
   --font-size-26: 26px;
   --font-size-32: 24px;
+  --font-size-62: 52px;
   --font-size-70: 70px;
   --font-size-83: 83px;
   --font-size-42: 32px;
@@ -33,6 +34,14 @@
 
 .fontSize26px {
   font-size: var(--font-size-26);
+}
+
+.fontSize32px {
+  font-size: var(--font-size-32);
+}
+
+.fontSize62px {
+  font-size: var(--font-size-62);
 }
 
 .fontSize70px {
@@ -145,6 +154,13 @@
   background-size: cover;
 }
 
+.sec_9 {
+  background: url("Assets/AO-JV-bg-Sec-10.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .sec_10 {
   background: url("Assets/AO-JV-bg-Sec-08.svg");
   background-position: center;
@@ -158,6 +174,19 @@
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 26px;
+}
+
+.video2 {
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video2 iframe {
+  width: 80%;
+  aspect-ratio: 16 / 9;
+  /* opacity: 0; */
 }
 
 .circle {
