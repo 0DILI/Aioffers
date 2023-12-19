@@ -7,7 +7,7 @@
 
 * {
   box-sizing: border-box;
-  /* overflow: hidden; */
+  /* overflow-x: hidden; */
   font-family: "Outfit", sans-serif;
 }
 
@@ -15,6 +15,7 @@
   --border-radius-medium: 14px;
   --font-size-26: 26px;
   --font-size-32: 24px;
+  --font-size-38: 30px;
   --font-size-62: 52px;
   --font-size-70: 70px;
   --font-size-83: 83px;
@@ -22,6 +23,7 @@
   --font-size-50: 40px;
   --font-size-52: 42px;
   --font-size-55: 45px;
+  --font-size-58: 48px;
   --font-size-69: 55px;
   --font-size-71: 60px;
   --off-white: #d2d7e4;
@@ -38,6 +40,14 @@
 
 .fontSize32px {
   font-size: var(--font-size-32);
+}
+
+.fontSize38px {
+  font-size: var(--font-size-38);
+}
+
+.fontSize58px {
+  font-size: var(--font-size-58);
 }
 
 .fontSize62px {
@@ -168,6 +178,13 @@
   background-size: cover;
 }
 
+.sec-12-min {
+  background: url("Assets/sec_12-min-bg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .video {
   background: url("Assets/Video.png");
   background-position: center;
@@ -273,10 +290,6 @@
   background: rgba(0, 204, 255, 0.1);
   border-radius: 14px;
   font-size: 20px;
-}
-
-.head_text {
-  line-height: 77px;
 }
 
 /* RESPONSIVE SCREENS */
