@@ -46,6 +46,14 @@
   font-size: var(--font-size-38);
 }
 
+.fontSize42px {
+  font-size: var(--font-size-42);
+}
+
+.fontSize52px {
+  font-size: var(--font-size-52);
+}
+
 .fontSize58px {
   font-size: var(--font-size-58);
 }
