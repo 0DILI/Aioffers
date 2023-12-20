@@ -193,6 +193,13 @@
   background-size: cover;
 }
 
+.sec-18 {
+  background: url("Assets/Section18.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .video {
   background: url("Assets/Video.png");
   background-position: center;
@@ -288,6 +295,17 @@
 
 .grad-9_text {
   background: linear-gradient(246deg, #b288ff -0.02%, #6b15d1 99.98%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.grad-10 {
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #667dff 42.37495422363281deg,
+    #3bf 160.87486267089844deg
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
