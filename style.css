@@ -200,6 +200,13 @@
   background-size: cover;
 }
 
+footer {
+  background: url("Assets/footer.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .video {
   background: url("Assets/Video.png");
   background-position: center;
@@ -219,6 +226,11 @@
   width: 80%;
   aspect-ratio: 16 / 9;
   /* opacity: 0; */
+}
+
+.tret {
+  width: 80%;
+  aspect-ratio: 16 / 9;
 }
 
 .circle {
