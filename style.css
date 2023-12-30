@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap');
 
 * {
   box-sizing: border-box;
   /* overflow-x: hidden; */
-  font-family: "Outfit", sans-serif;
+  font-family: 'Outfit', sans-serif;
 }
 
 :root {
@@ -117,105 +117,105 @@
 
 /****** SECTIONS ******/
 .sec_1 {
-  background: url("Assets/AO-JV-bg-Sec-01.png");
+  background: url('Assets/AO-JV-bg-Sec-01.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .fe-sec_1 {
-  background: url("Assets/Fe-sec-1.png");
+  background: url('Assets/Fe-sec-1.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .sec_2 {
-  background: url("Assets/Section2.png");
+  background: url('Assets/Section2.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .sec_3 {
-  background: url("Assets/AO-JV-bg-Sec-03.svg");
+  background: url('Assets/AO-JV-bg-Sec-03.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .sec_4 {
-  background: url("Assets/AO-JV-bg-Sec-04.svg");
+  background: url('Assets/AO-JV-bg-Sec-04.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .sec_5 {
-  background: url("Assets/Section5.svg");
+  background: url('Assets/Section5.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .sec_6 {
-  background: url("Assets/AO-JV-bg-Sec-06.svg");
+  background: url('Assets/AO-JV-bg-Sec-06.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .sec_7 {
-  background: url("Assets/AO-JV-bg-Sec-07.svg");
+  background: url('Assets/AO-JV-bg-Sec-07.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .sec_8 {
-  background: url("Assets/AO-JV-bg-Sec-09.svg");
+  background: url('Assets/AO-JV-bg-Sec-09.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .sec_9 {
-  background: url("Assets/AO-JV-bg-Sec-10.svg");
+  background: url('Assets/AO-JV-bg-Sec-10.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .sec_10 {
-  background: url("Assets/AO-JV-bg-Sec-08.svg");
+  background: url('Assets/AO-JV-bg-Sec-08.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .sec-12-min {
-  background: url("Assets/sec_12-min-bg.svg");
+  background: url('Assets/sec_12-min-bg.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .sec-18 {
-  background: url("Assets/Section18.svg");
+  background: url('Assets/Section18.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 footer {
-  background: url("Assets/footer.png");
+  background: url('Assets/footer.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .video {
-  background: url("Assets/Video.png");
+  background: url('Assets/Video.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -254,7 +254,7 @@ footer {
 }
 
 .circle {
-  background: url("Assets/circle.svg");
+  background: url('Assets/circle.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
