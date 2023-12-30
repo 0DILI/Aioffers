@@ -123,6 +123,13 @@
   background-size: cover;
 }
 
+.fe-sec_1 {
+  background: url("Assets/Fe-sec-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .sec_2 {
   background: url("Assets/Section2.png");
   background-position: center;
@@ -233,6 +240,19 @@ footer {
   aspect-ratio: 16 / 9;
 }
 
+.video3 {
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video3 iframe {
+  width: 95%;
+  aspect-ratio: 16 / 9;
+  /* opacity: 0; */
+}
+
 .circle {
   background: url("Assets/circle.svg");
   background-position: center;
@@ -247,9 +267,7 @@ footer {
 }
 
 .grad-2 {
-  background: linear-gradient(270deg, #ffaa9d 17.6%, #ffc698 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background: rgba(0, 204, 255, 0.1);
 }
 
 .grad-3 {
@@ -328,6 +346,11 @@ footer {
   background: rgba(0, 204, 255, 0.1);
   border-radius: 14px;
   font-size: 20px;
+}
+
+.bang2 {
+  background: rgba(255, 245, 0, 0.1);
+  border-radius: 14px;
 }
 
 /* RESPONSIVE SCREENS */
