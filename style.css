@@ -297,6 +297,16 @@ footer {
   line-height: 92px;
 }
 
+.steps {
+  background: var(
+    --Steps-Color-2,
+    linear-gradient(62deg, #a442ff 0.03%, #3fbbfe 100.03%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .grad-7 {
   background: linear-gradient(246deg, #b464d8 -0.02%, #ec609e 99.98%);
 }
