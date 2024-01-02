@@ -193,6 +193,13 @@
   background-size: cover;
 }
 
+.sec-12-min2 {
+  background: url('Assets/Section12.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .sec-12-min {
   background: url('Assets/sec_12-min-bg.svg');
   background-position: center;
