@@ -121,6 +121,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #05051E;
 }
 
 .fe-sec_1 {
@@ -159,7 +160,7 @@
 }
 
 .sec_6 {
-  background: url('Assets/AO-JV-bg-Sec-06.svg');
+  background: url('Assets/section6.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -173,7 +174,7 @@
 }
 
 .sec_8 {
-  background: url('Assets/AO-JV-bg-Sec-09.svg');
+  background: url('Assets/AO-JV-bg-Sec-09.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
