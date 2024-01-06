@@ -129,6 +129,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #05051e;
 }
 
 .sec_2 {
@@ -217,6 +218,13 @@
 
 .fe-sec-14 {
   background: url('Assets/FE-sec-14.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fe-sec-16 {
+  background: url('Assets/Fe-sec-16.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
