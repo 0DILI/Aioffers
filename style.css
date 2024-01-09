@@ -230,6 +230,13 @@
   background-size: cover;
 }
 
+.fe-sec-17 {
+  background: url('Assets/fe-sec-17.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 footer {
   background: url('Assets/footer.png');
   background-position: center;
